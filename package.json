@@ -1,0 +1,28 @@
+{
+  "name": "imdb-scraping-api",
+  "version": "1.0.0",
+  "description": "This is a tutorial on how to make a web scraping program with node js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EL-MehdiLoukach/imdb-scraping-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EL-MehdiLoukach/imdb-scraping-api/issues"
+  },
+  "homepage": "https://github.com/EL-MehdiLoukach/imdb-scraping-api#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  }
+}
